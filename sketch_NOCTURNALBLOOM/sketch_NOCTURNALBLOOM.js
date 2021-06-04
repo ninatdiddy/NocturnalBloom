@@ -1,6 +1,6 @@
 const string = "NOCTURNAL BLOOM"; //words to be displayed
-const size = 160; //font size
-const fontFile = "nocturnalbloom.otf";
+const size = 100; //font size
+const fontFile = "data/nocturnalbloom.otf";
 const showText = true; //whether or not to have an overlay of the original text (in the background color)
 const textAlpha = 1; //the alpha of the text if displayed (low value will make it slowly fade in)
 const backgroundColor = 0; // self-explanatory
@@ -17,7 +17,7 @@ const noiseFalloff = 0.5; //The falloff for the noise layers
 const zOffsetChange = 0; //How much the noise field changes in the z direction each frame
 const individualZOffset = 0; //how far away the points/lines are from each other in the z noise axies (the bigger the number, the more chaotic)
 
-const lineSpeed = 0.5; //the maximum amount each point can move each frame
+const lineSpeed = 0.6; //the maximum amount each point can move each frame
 
 const newPointsCount = 9; //the number of new points added when the mouse is dragged
 
